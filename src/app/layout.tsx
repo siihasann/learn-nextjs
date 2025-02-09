@@ -1,5 +1,11 @@
-export const metadata = {
-    title: 'Next.js',
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: {
+        default: "Next.js Tutorial Hans",
+        template: "%s | Hans",
+
+    },
     description: 'Generate By Next Js'
 }
 
